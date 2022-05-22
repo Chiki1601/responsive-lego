@@ -1,0 +1,52 @@
+body {
+ background-color: #FEC800;
+ overflow: hidden;
+ text-align: center;
+}
+svg {
+ background-color: rgba(0,0,0,0)
+}
+body,
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+#animationWindow, .sliderSVG {
+ position:absolute;
+ left:0;
+ width: 100%;
+ height: 100%;
+}
+
+#popWindow{
+ pointer-events:none;
+}
+
+.handleDisplay{
+ user-select:none;
+ pointer-events:none;
+}
+
+text{
+ font-size:1.5em;
+ text-anchor:middle;
+ width:100%;
+ font-family:"Ubuntu", sans-serif;
+ font-weight:700;
+ fill:#FFF;
+}
+
+
+#animationWindow, .sliderSVG {
+ position:absolute;
+ left:0;
+ width:100%;
+ height:100%;
+}
+
+.swatch rect{
+ cursor:pointer;
+}

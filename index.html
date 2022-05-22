@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Responsive LEGO</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="animationWindow">
+</div>
+<svg class="sliderSVG" viewBox="0 0 800 600">
+ <defs>
+      <circle class="pop" id="pop" fill="none" cx="200" cy="540" r="24" stroke="#FFF" stroke-width="2"/>   
+      <circle class="pop" id="dimple" fill="none" cx="0" cy="0" r="24" stroke="#4FACCE" stroke-width="2"/>   
+ </defs>
+ <g class="sliderGroup" transform="translate(0, 520)"> 
+      <line id="fillBar" fill="none" stroke="#ededed" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="170" y1="20" x2="630" y2="20" />
+  <g class="handle">
+
+      <circle class="handleCircle" fill="#E3000B" cx="200" cy="20" r="24" /> 
+   <text x="199" y="28" class="handleText">16</text> 
+  </g>
+ </g>
+ <g class="swatch" transform="translate(238, 60)">
+     <rect x="1.5" y="1.5" width="56" height="35" fill="#e6252a" stroke="#fec800" stroke-miterlimit="10" stroke-width="0"/>
+      <rect x="57.5" y="1.5" width="56" height="35" fill="#fe6915" stroke="#fec800" stroke-miterlimit="10" stroke-width="0"/>
+      <rect x="113.5" y="1.5" width="56" height="35" fill="#97c430" stroke="#fec800" stroke-miterlimit="10" stroke-width="0"/>
+      <rect x="169.5" y="1.5" width="56" height="35" fill="#4fadce" stroke="#fec800" stroke-miterlimit="10" stroke-width="0"/>
+      <rect x="225.5" y="1.5" width="56" height="35" fill="#fae32f" stroke="#fec800" stroke-miterlimit="10" stroke-width="0"/>
+      <rect x="281.5" y="1.5" width="56" height="35" fill="#e4599c" stroke="#fec800" stroke-miterlimit="10" stroke-width="0"/>
+</g> 
+</svg>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ThrowPropsPlugin.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
